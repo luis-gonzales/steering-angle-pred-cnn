@@ -26,6 +26,15 @@ In training mode, all controls (steering, throttle, brake) are passed to the use
 The simulator contains two tracks. The first track is generally less challenging given that the road is a one-way and only has a couple of sharp turns. Perhaps the most challenging section is a cobblestone bridge with no explicit lane markings other than guardrails on either side. The second track contains a more varied terrain comprised of a two-way, mountainous road with numerous sharp turns, steep gradients, and roadside cliffs. Both tracks are featured in the video above.
 
 ### Dataset
+With the simulator in training mode, each track was driven twice in the default direction of traffic. To prevent overfitting and to generally have more data to train and validate on, each track was driven twice in the opposite direction as well. Given that the majority of time is spent driving straight (0°) and in flat terrain, additional data was captured in sections with sharp turns and/or steep gradients. To ensure that the network had the most reliable data to learn (and validate) from, an analog joystick was used when driving around the tracks, as opposed to keyboard controls, which often lead to a jerky response.
+
+Fig. 3(a) shows a histogram of the steering angle data collected in training mode. The high count of steering angles equal to 0° is a result of the two tracks containing long stretches of straight roadway. If this data were fed directly into the CNN during training, it's likely that the trained model would have a bias towards 0°. To alleviate this issue, data samples with a steering angle label equal to 0° were downsampled by approximately one-fifth. A histogram of the resulting dataset is shown in Fig. 3(b).
+
+<div align="center">
+  <p><img src="./figs/before.svg" width="400"></p>
+  <p>Fig. 3: Histogram of the data collected in training mode before (a) and after (b) downsampling. <br/> with each row pertaining to a unique sign/class.</p>
+</div>
+
 Fig. 1 shows a sampling of the dataset used, the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news), such that each row corresponds to a unique class. Each sample is shown in the actual resolution used by the CNN — 32 x 32. There are a total of 43 different classes. Below is a histogram of the classes in the training, validation, and test sets. The correspondence between traffic sign name and label can be found [here](https://drive.google.com/file/d/1LY-oqEmVAUGnINt9lnoH23MOkB6cFZT3/view).
 
 <div align="center">
