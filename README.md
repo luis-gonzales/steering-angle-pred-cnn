@@ -1,11 +1,9 @@
 ## Vehicle Steering Angle Prediction using ConvNets
 This project consists of designing, training, and evaluating an end-to-end convolutional neural network (CNN) pipeline to perform the steering of a self-driving car. A simulator provided by Udacity was used to collect training data and to test the performance. Click on the image below for a video of the car driving in autonomous mode. A write-up is also available [www.lrgonzales.com/steering-angle-pred](http://www.lrgonzales.com/steering-angle-pred).
 
-<div style="text-align: center">
-<a href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
+<a align="center"; href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
   <img src="./figs/self_driving.png" alt="YouTube video" width="500">
 </a>
-</div>
 
 ### Introduction
 The steering of a vehicle is a complex problem faced by self-driving vehicles, particularly given the various colors and patterns of lane markings present in the real-world. In addition, lane markings can be obscured by obstacles and wear and tear. Moreover, it's possible that lanes/pathways don't contain any markings and are expected to be inferred (one-way streets, alleyways, etc). It's also critical that a system designed to perform the steering of a self-driving car be robust to varied weather, road surfaces, and lighting conditions. CNNs are an attractive solution to this task given their ability to learn abstract concepts.
