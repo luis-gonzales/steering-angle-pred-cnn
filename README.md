@@ -1,12 +1,20 @@
 ## Vehicle Steering Angle Prediction using ConvNets
 This project consists of designing, training, and evaluating an end-to-end convolutional neural network (CNN) pipeline to perform the steering of a self-driving car. A simulator provided by Udacity was used to collect training data and to test the performance. Click on the image below for a video of the car driving in autonomous mode. A write-up is also available [www.lrgonzales.com/steering-angle-pred](http://www.lrgonzales.com/steering-angle-pred).
 
-<a align="center" href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
+<a href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
   <img src="./figs/self_driving.png" alt="YouTube video" width="450" align="middle">
 </a>
 
 ### Introduction
-Classifying street signs is a challenging and important real-world problem, particularly with the promise of self-driving cars. The environment in which classification takes place is relatively constrained in that street signs are typically standardized for a given geographical region and the camera(s) used to "see" the traffic signs is/are assumed to be positioned upright and to be stationary with respect to an observant vehicle. However, varied lighting and weather conditions — and even blur due to velocity — are expected.
+The steering of a vehicle is a complex problem faced by self-driving vehicles, particularly given the various colors and patterns of lane markings present in the real-world. In addition, lane markings can be obscured by obstacles and wear and tear. Moreover, it's possible that lanes/pathways don't contain any markings and are expected to be inferred (one-way streets, alleyways, etc). It's also critical that a system designed to perform the steering of a self-driving car be robust to varied weather, road surfaces, and lighting conditions. CNNs are an attractive solution to this task given their ability to learn abstract concepts.
+
+### Simulator
+A simulator (startup screen shown in Fig. 1) provided by Udacity (download for [Linux](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae46bb_linux-sim/linux-sim.zip), [Mac](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4594_mac-sim.app/mac-sim.app.zip), [Windows](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4419_windows-sim/windows-sim.zip)) was used to collect training data in training mode and to test the performance of the CNN in autonomous mode.
+
+<div align="center" href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
+  <p><img src="./figs/simulator.png"></p>
+  <p>Fig. 2: Sampling of the German Traffic Sign Dataset <br/> with each row pertaining to a unique sign/class.</p>
+</div>
 
 ### Dataset
 Fig. 1 shows a sampling of the dataset used, the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news), such that each row corresponds to a unique class. Each sample is shown in the actual resolution used by the CNN — 32 x 32. There are a total of 43 different classes. Below is a histogram of the classes in the training, validation, and test sets. The correspondence between traffic sign name and label can be found [here](https://drive.google.com/file/d/1LY-oqEmVAUGnINt9lnoH23MOkB6cFZT3/view).
