@@ -5,7 +5,7 @@ This project consists of designing, training, and evaluating an end-to-end convo
   <p><img src="./figs/self_driving.png"></p>
 </div>
 
-<a href="default.asp">
+<a href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
   <img src="./figs/self_driving.png" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
 </a>
 
