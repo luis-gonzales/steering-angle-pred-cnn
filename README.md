@@ -84,4 +84,4 @@ Run `python ./src/sign_classifier_train.py` to train the model. The trained Tens
 Inference can be performed by running `python ./src/sign_classifier_inference.py <img>` where `<img>` is a 32 x 32 RGB image compatible with `cv2.imread()`. As an example, `twenty_kph.png`, a compatible image of a 20 KPH speed limit sign, is included in `./imgs/`. To perform inference on this image, run `python ./src/sign_classifier_inference.py ./imgs/twenty_kph.png`.
 
 ### Dependencies
-The project makes use of `numpy`, `matplotlib`, `tensorflow`, `cv2`, and `gdrive`.
+The project makes use of `numpy`, `matplotlib`, `tensorflow`, `keras`, `cv2`, `sklearn`, and `gdrive`.
