@@ -31,7 +31,7 @@ With the simulator in training mode, each track was driven twice in the default 
 Fig. 3(a) shows a histogram of the steering angle data collected in training mode. The high count of steering angles equal to 0° is a result of the two tracks containing long stretches of straight roadway. If this data were fed directly into the CNN during training, it's likely that the trained model would have a bias towards 0°. To alleviate this issue, data samples with a steering angle label equal to 0° were downsampled by approximately one-fifth. A histogram of the resulting dataset is shown in Fig. 3(b).
 
 <div align="center">
-  <p><img src="./figs/before.svg" width="400"></p>
+  <p><img src="./figs/before.svg"></p>
   <p>Fig. 3: Histogram of the data collected in training mode before (a) and after (b) downsampling. <br/> with each row pertaining to a unique sign/class.</p>
 </div>
 
