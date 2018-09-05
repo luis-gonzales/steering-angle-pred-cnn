@@ -13,7 +13,7 @@ A simulator (startup screen shown in Fig. 1) provided by Udacity (download for [
 
 <div align="center">
   <p><img src="./figs/simulator.png" width="500"></p>
-  <p>Fig. 1: Start up screen of Udacity simulator. <br/> with each row pertaining to a unique sign/class.</p>
+  <p>Fig. 1: Start up screen of Udacity simulator.</p>
 </div>
 
 In training mode, all controls (steering, throttle, brake) are passed to the user. Steering angles are in [-25.0°, 25.0°] and speed is limited to 30 MPH. There are three emulated cameras (left, center, right) within the vehicle that save images (320 x 160 resolution) at regular time intervals to a user-specified file directory. In addition, a CSV file is created where each row contains the path to a set of three image captures and the corresponding steering angle at the time of capture. An example of a saved capture with a steering angle label of 0° is shown in Fig. 2 with an abbreviated example of the corresponding CSV file entry below. Note that the CSV contains normalized angles ([-25.0°, 25.0°] <img src="https://latex.codecogs.com/svg.latex?\mapsto" title="\mapsto" /> [-1.0, 1.0]). In autonomous mode, vehicle speed is maintained to a modifiable constant and the saved CNN model controls the steering angle.
@@ -41,7 +41,7 @@ Fig. 4 shows a histogram of the data from Fig. 3(b) after it has undergone the a
 
 <div align="center">
   <p><img src="./figs/after.svg"></p>
-  <p>Fig. 4: Histogram of the final dataset with recovery data. <br/> in training mode before (a) and <br/> after (b) downsampling.</p>
+  <p>Fig. 4: Histogram of the final dataset <br/> with recovery data.</p>
 </div>
 
 ### CNN Architecture and Training
