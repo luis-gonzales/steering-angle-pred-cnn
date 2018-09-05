@@ -75,13 +75,13 @@ Given the nature of the task at hand, a test set metric was not captured. Instea
 Because the solution is expected to perform in real-time within a self-driving car, further efforts could be made in terms of exploring CNN architectures, particularly residual networks, with fewer parameters, easing processing requirements. It would also be interesting to see if performing a perspective transform within the cropped region leads to improvements. Lastly, there may be benefits in using two (left and right) or all three camera inputs into the CNN architecture; however, recovery data would have to be explicitly collected.
 
 ### Usage
-Run `./init.sh` to obtain the dataset in `./data/` and the saved Keras model.
+Run `./init.sh` to obtain the dataset in `./data/` and the saved Keras model in `./`.
 
 #### Training
 Run `python ./src/steer_net_train.py` to train the model. The trained Keras model saves to `./`. The chosen values for the hyperparameters (learning rate and batch size) are predefined in `./src/steer_net_train.py`, but these can be changed by redefining `alpha` and `batch_sz`.
 
 #### Self-Driving
-To configure the car in autonomous mode, run `python drive.py steer_net_model.h5`, open the simulator app, choose a desired course, and click `AUTONOMOUS MODE`. The speed set during autonomous mode is defined in `drive.py` as `set_speed`.
+To configure the car in autonomous mode, run `python src/drive.py steer_net_model.h5`, open the simulator app, choose a desired track, and click `AUTONOMOUS MODE`. The speed set during autonomous mode is defined in `src/drive.py` as `set_speed`.
 
 ### Dependencies
 The project makes use of `numpy`, `matplotlib`, `tensorflow`, `keras`, `cv2`, `sklearn`, and `gdrive`.
