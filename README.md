@@ -75,13 +75,13 @@ Given the nature of the task at hand, a test set metric was not captured. Instea
 Because the solution is expected to perform in real-time within a self-driving car, further efforts could be made in terms of exploring CNN architectures, particularly residual networks, with fewer parameters, easing processing requirements. It would also be interesting to see if performing a perspective transform within the cropped region leads to improvements. Lastly, there may be benefits in using two (left and right) or all three camera inputs into the CNN architecture; however, recovery data would have to be explicitly collected.
 
 ### Usage
-Run `./init.sh` to obtain the dataset in `./data/` and the saved TensorFlow model in `./tf_model/`.
+Run `./init.sh` to obtain the dataset in `./data/` and the saved Keras model.
 
 #### Training
-Run `python ./src/sign_classifier_train.py` to train the model. The trained TensorFlow model saves to `./tf_model/`. the chosen values for The chosen values for the hyperparameters (learning rate and batch size) are predefined in `./src/sign_classifier_train.py`, but these can be changed by redefining `alpha` and `batch_sz`.
+Run `python ./src/steer_net_train.py` to train the model. The trained Keras model saves to `./`. The chosen values for the hyperparameters (learning rate and batch size) are predefined in `./src/steer_net_train.py`, but these can be changed by redefining `alpha` and `batch_sz`.
 
-#### Inference
-Inference can be performed by running `python ./src/sign_classifier_inference.py <img>` where `<img>` is a 32 x 32 RGB image compatible with `cv2.imread()`. As an example, `twenty_kph.png`, a compatible image of a 20 KPH speed limit sign, is included in `./imgs/`. To perform inference on this image, run `python ./src/sign_classifier_inference.py ./imgs/twenty_kph.png`.
+#### Self-Driving
+To configure the car in autonomous mode, run `python drive.py steer_net_model.h5`, open the simulator app, choose a desired course, and click `AUTONOMOUS MODE`. The speed set during autonomous mode is defined in `drive.py` as `set_speed`.
 
 ### Dependencies
 The project makes use of `numpy`, `matplotlib`, `tensorflow`, `keras`, `cv2`, `sklearn`, and `gdrive`.
