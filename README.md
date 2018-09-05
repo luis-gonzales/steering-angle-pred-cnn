@@ -85,3 +85,7 @@ To configure the car in autonomous mode, run `python src/drive.py steer_net_mode
 
 ### Dependencies
 The project makes use of `numpy`, `matplotlib`, `tensorflow`, `keras`, `cv2`, `sklearn`, and `gdrive`.
+
+### References
+[1] [End to End Learning for Self-Driving Cars, NVIDIA, 2016](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
+[2] [Learning a Driving Simulator, comma.ai, 2016](https://arxiv.org/pdf/1608.01230.pdf)
