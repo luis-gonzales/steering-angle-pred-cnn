@@ -19,7 +19,7 @@ A simulator (startup screen shown in Fig. 1) provided by Udacity (download for [
 In training mode, all controls (steering, throttle, brake) are passed to the user. Steering angles are in [-25.0°, 25.0°] and speed is limited to 30 MPH. There are three emulated cameras (left, center, right) within the vehicle that save images (320 x 160 resolution) at regular time intervals to a user-specified file directory. In addition, a CSV file is created where each row contains the path to a set of three image captures and the corresponding steering angle at the time of capture. An example of a saved capture with a steering angle label of 0° is shown in Fig. 2 with an abbreviated example of the corresponding CSV file entry below. Note that the CSV contains normalized angles ([-25.0°, 25.0°] <img src="https://latex.codecogs.com/svg.latex?\mapsto" title="\mapsto" /> [-1.0, 1.0]). In autonomous mode, vehicle speed is maintained to a modifiable constant and the saved CNN model controls the steering angle.
 
 <div align="center">
-  <p><img src="./figs/group.png" width="400"></p>
+  <p><img src="./figs/group.png" width="600"></p>
   <p>Fig. 2: Example capture in training mode of left, center, and right cameras. <br/> with each row pertaining to a unique sign/class.</p>
 </div>
 
@@ -32,7 +32,7 @@ Fig. 3(a) shows a histogram of the steering angle data collected in training mod
 
 <div align="center">
   <p><img src="./figs/before.svg"></p>
-  <p>Fig. 3: Histogram of the data collected in training mode before (a) and after (b) downsampling. <br/> with each row pertaining to a unique sign/class.</p>
+  <p>Fig. 3: Histogram of the data collected <br/> in training mode before (a) and <br/> after (b) downsampling.</p>
 </div>
 
 Fig. 1 shows a sampling of the dataset used, the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=news), such that each row corresponds to a unique class. Each sample is shown in the actual resolution used by the CNN — 32 x 32. There are a total of 43 different classes. Below is a histogram of the classes in the training, validation, and test sets. The correspondence between traffic sign name and label can be found [here](https://drive.google.com/file/d/1LY-oqEmVAUGnINt9lnoH23MOkB6cFZT3/view).
