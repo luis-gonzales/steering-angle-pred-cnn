@@ -2,7 +2,7 @@
 This project consists of designing, training, and evaluating an end-to-end convolutional neural network (CNN) pipeline to perform the steering of a self-driving car. A simulator provided by Udacity was used to collect training data and to test the performance. Click on the image below for a video of the car driving in autonomous mode. A write-up is also available [www.lrgonzales.com/steering-angle-pred](http://www.lrgonzales.com/steering-angle-pred).
 
 <a align="center" href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
-  <img src="./figs/self_driving.png" alt="YouTube video" width="150">
+  <img src="./figs/self_driving.png" alt="YouTube video" width="450" align="middle">
 </a>
 
 ### Introduction
