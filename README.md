@@ -12,14 +12,14 @@ The steering of a vehicle is a complex problem faced by self-driving vehicles, p
 A simulator (startup screen shown in Fig. 1) provided by Udacity (download for [Linux](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae46bb_linux-sim/linux-sim.zip), [Mac](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4594_mac-sim.app/mac-sim.app.zip), [Windows](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58ae4419_windows-sim/windows-sim.zip)) was used to collect training data in training mode and to test the performance of the CNN in autonomous mode.
 
 <div align="center">
-  <p><img src="./figs/simulator.png" width="400"></p>
+  <p><img src="./figs/simulator.png" width="500"></p>
   <p>Fig. 1: Start up screen of Udacity simulator. <br/> with each row pertaining to a unique sign/class.</p>
 </div>
 
 In training mode, all controls (steering, throttle, brake) are passed to the user. Steering angles are in [-25.0°, 25.0°] and speed is limited to 30 MPH. There are three emulated cameras (left, center, right) within the vehicle that save images (320 x 160 resolution) at regular time intervals to a user-specified file directory. In addition, a CSV file is created where each row contains the path to a set of three image captures and the corresponding steering angle at the time of capture. An example of a saved capture with a steering angle label of 0° is shown in Fig. 2 with an abbreviated example of the corresponding CSV file entry below. Note that the CSV contains normalized angles ([-25.0°, 25.0°] <img src="https://latex.codecogs.com/svg.latex?\mapsto" title="\mapsto" /> [-1.0, 1.0]). In autonomous mode, vehicle speed is maintained to a modifiable constant and the saved CNN model controls the steering angle.
 
 <div align="center">
-  <p><img src="./figs/group.png" width="800"></p>
+  <p><img src="./figs/group.png" width="850"></p>
   <p>Fig. 2: Example capture in training mode of left, center, and right cameras.</p>
 </div>
 
@@ -45,6 +45,17 @@ Fig. 4 shows a histogram of the data from Fig. 3(b) after it has undergone the a
 </div>
 
 ### CNN Architecture and Training
+In addition to the common normalization scheme for images ([0, 255] ↦ [0, 1.0]), cropping and resizing were also implemented as part of preprocessing. Specifically, the top 55 pixels and bottom 25 pixels were cropped and the resulting image was resized to 200 x 66 [1]. Cropping allows for the CNN to focus on the most relevant content without having to learn superfluous information (sky, scenery, etc). Perhaps more importantly, cropping and resizing result in smaller activation layers and thus fewer CNN parameters, leading to quicker processing in real-time applications. Fig. 5 shows the cropping and resizing that would be performed on the example capture from Fig. 2.
+
+<div align="center">
+  <p><img src="./figs/crop.png" width="850"></p>
+  <p>Fig. 5: Cropping and resizing performed on set of images in Fig. 2.</p>
+</div>
+
+The CNN architecture is borrowed from NVIDIA [1], has a total of 252,219 trainable parameters, and takes in a single image as input (center camera). A complete diagram of the architecture, depicting the activation layers, is shown below with the preprocessing layers omitted for brevity. The architecture from comma.ai [2] was considered but resulted in nearly seven times as many trainable parameters.
+
+
+
 The CNN architecture is inspired by ResNet and incorporates one skip-connection. A complete diagram of the architecture, depicting the activation layers, is shown below with the preprocessing layers omitted for brevity.
 
 <div align="center">
