@@ -1,0 +1,237 @@
+<svg width="711px" height="106px" viewBox="0 0 711 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-17.3%" y="-13.5%" width="136.5%" height="138.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-17.3%" y="-13.5%" width="136.5%" height="138.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-17.3%" y="-13.5%" width="136.5%" height="138.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-17.3%" y="-13.5%" width="136.5%" height="138.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-17.3%" y="-13.5%" width="136.5%" height="138.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-17.3%" y="-13.5%" width="136.5%" height="138.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(3.000000, -2.000000)">
+            <circle id="Oval" stroke="#000000" stroke-width="0.91" fill="#41CEFA" cx="689" cy="66.3" r="7.8"></circle>
+            <text id="Conv-k-=-5" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="59.143335" y="46.1">Conv</tspan>
+                <tspan x="61.7604736" y="60.1">k</tspan>
+                <tspan x="67.6104736" y="60.1" font-size="5.2"> </tspan>
+                <tspan x="69.0552002" y="60.1">=</tspan>
+                <tspan x="75.8878174" y="60.1" font-size="5.2"> </tspan>
+                <tspan x="77.3325439" y="60.1">5</tspan>
+            </text>
+            <text id="Conv-k-=-5" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="147.543335" y="44.8">Conv</tspan>
+                <tspan x="150.160474" y="58.8">k</tspan>
+                <tspan x="156.010474" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="157.4552" y="58.8">=</tspan>
+                <tspan x="164.287817" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="165.732544" y="58.8">5</tspan>
+            </text>
+            <text id="Conv-k-=-5" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="235.943335" y="44.8">Conv</tspan>
+                <tspan x="238.560474" y="58.8">k</tspan>
+                <tspan x="244.410474" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="245.8552" y="58.8">=</tspan>
+                <tspan x="252.687817" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="254.132544" y="58.8">5</tspan>
+            </text>
+            <text id="Conv-k-=-3" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="412.743335" y="44.8">Conv</tspan>
+                <tspan x="415.360474" y="58.8">k</tspan>
+                <tspan x="421.210474" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="422.6552" y="58.8">=</tspan>
+                <tspan x="429.487817" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="430.932544" y="58.8">3</tspan>
+            </text>
+            <text id="Conv-k-=-3" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="324.343335" y="44.8">Conv</tspan>
+                <tspan x="326.960474" y="58.8">k</tspan>
+                <tspan x="332.810474" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="334.2552" y="58.8">=</tspan>
+                <tspan x="341.087817" y="58.8" font-size="5.2"> </tspan>
+                <tspan x="342.532544" y="58.8">3</tspan>
+            </text>
+            <text id="3@66x200" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="0.86550293" y="25.3">3@66x200</tspan>
+            </text>
+            <text id="24@31x98" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="89.2655029" y="25.3">24@31x98</tspan>
+            </text>
+            <text id="36@14x47" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="176.365503" y="25.3">36@14x47</tspan>
+            </text>
+            <g id="Group" filter="url(#filter-1)" transform="translate(2.600000, 37.700000)" fill="#41CEFA" stroke="#000000" stroke-width="0.91">
+                <polygon id="Path-5" points="0.482477921 5.5448448 5.35743668 0.372039387 51.3482076 0.372039387 46.6271329 5.5448448"></polygon>
+                <rect id="Rectangle-2-Copy" x="0.455" y="5.655" width="45.89" height="45.89"></rect>
+                <polygon id="Path-3" points="46.4735617 51.6701722 51.6270204 46.6423406 51.6270204 0.163832809 46.4735617 5.73648827"></polygon>
+            </g>
+            <g id="Group" filter="url(#filter-2)" transform="translate(91.000000, 37.700000)" fill="#41CEFA" stroke="#000000" stroke-width="0.91">
+                <polygon id="Path-5" points="0.482477921 5.5448448 5.35743668 0.372039387 51.3482076 0.372039387 46.6271329 5.5448448"></polygon>
+                <rect id="Rectangle-2-Copy" x="0.455" y="5.655" width="45.89" height="45.89"></rect>
+                <polygon id="Path-3" points="46.4735617 51.6701722 51.6270204 46.6423406 51.6270204 0.163832809 46.4735617 5.73648827"></polygon>
+            </g>
+            <text id="48@5x22" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="268.018994" y="25.3">48@5x22</tspan>
+            </text>
+            <text id="64@3x20" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="356.418994" y="25.3">64@3x20</tspan>
+            </text>
+            <text id="64@1x18" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="446.118994" y="25.3">64@1x18</tspan>
+            </text>
+            <text id="100" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="527.139526" y="11">100</tspan>
+            </text>
+            <text id="50" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="583.043018" y="11">50</tspan>
+            </text>
+            <text id="10" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="633.743018" y="11">10</tspan>
+            </text>
+            <text id="Vehicle-Control" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="670.133179" y="25.3">Vehicle</tspan>
+                <tspan x="670.141748" y="39.3">Control</tspan>
+            </text>
+            <g id="Arrow-07" transform="translate(52.000000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L35.8004706,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="31.6404706 8.32 39.1284706 4.16020857 31.6404706 0 31.6404706 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Arrow-07" transform="translate(140.400000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L35.8004706,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="31.6404706 8.32 39.1284706 4.16020857 31.6404706 0 31.6404706 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Group" filter="url(#filter-3)" transform="translate(179.400000, 37.700000)" fill="#41CEFA" stroke="#000000" stroke-width="0.91">
+                <polygon id="Path-5" points="0.482477921 5.5448448 5.35743668 0.372039387 51.3482076 0.372039387 46.6271329 5.5448448"></polygon>
+                <rect id="Rectangle-2-Copy" x="0.455" y="5.655" width="45.89" height="45.89"></rect>
+                <polygon id="Path-3" points="46.4735617 51.6701722 51.6270204 46.6423406 51.6270204 0.163832809 46.4735617 5.73648827"></polygon>
+            </g>
+            <g id="Group" filter="url(#filter-4)" transform="translate(267.800000, 37.700000)" fill="#41CEFA" stroke="#000000" stroke-width="0.91">
+                <polygon id="Path-5" points="0.482477921 5.5448448 5.35743668 0.372039387 51.3482076 0.372039387 46.6271329 5.5448448"></polygon>
+                <rect id="Rectangle-2-Copy" x="0.455" y="5.655" width="45.89" height="45.89"></rect>
+                <polygon id="Path-3" points="46.4735617 51.6701722 51.6270204 46.6423406 51.6270204 0.163832809 46.4735617 5.73648827"></polygon>
+            </g>
+            <g id="Group" filter="url(#filter-5)" transform="translate(356.200000, 37.700000)" fill="#41CEFA" stroke="#000000" stroke-width="0.91">
+                <polygon id="Path-5" points="0.482477921 5.5448448 5.35743668 0.372039387 51.3482076 0.372039387 46.6271329 5.5448448"></polygon>
+                <rect id="Rectangle-2-Copy" x="0.455" y="5.655" width="45.89" height="45.89"></rect>
+                <polygon id="Path-3" points="46.4735617 51.6701722 51.6270204 46.6423406 51.6270204 0.163832809 46.4735617 5.73648827"></polygon>
+            </g>
+            <g id="Group" filter="url(#filter-6)" transform="translate(444.600000, 37.700000)" fill="#41CEFA" stroke="#000000" stroke-width="0.91">
+                <polygon id="Path-5" points="0.482477921 5.5448448 5.35743668 0.372039387 51.3482076 0.372039387 46.6271329 5.5448448"></polygon>
+                <rect id="Rectangle-2-Copy" x="0.455" y="5.655" width="45.89" height="45.89"></rect>
+                <polygon id="Path-3" points="46.4735617 51.6701722 51.6270204 46.6423406 51.6270204 0.163832809 46.4735617 5.73648827"></polygon>
+            </g>
+            <rect id="Rectangle-4" stroke="#000000" stroke-width="0.91" fill="#41CEFA" x="525.655" y="21.255" width="22.49" height="86.19"></rect>
+            <rect id="Rectangle-4" stroke="#000000" stroke-width="0.91" fill="#41CEFA" x="577.655" y="21.255" width="22.49" height="86.19"></rect>
+            <rect id="Rectangle-4" stroke="#000000" stroke-width="0.91" fill="#41CEFA" x="629.655" y="21.255" width="22.49" height="86.19"></rect>
+            <text id="Flat-FC" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="501.148096" y="44.8">Flat</tspan>
+                <tspan x="503.101904" y="58.8">FC</tspan>
+            </text>
+            <text id="FC" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="555.101904" y="59.1">FC</tspan>
+            </text>
+            <text id="FC" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="607.101904" y="59.1">FC</tspan>
+            </text>
+            <text id="FC" font-family="Helvetica" font-size="11.7" font-weight="normal" fill="#000000">
+                <tspan x="659.101904" y="59.1">FC</tspan>
+            </text>
+            <g id="Arrow-07" transform="translate(228.800000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L35.8004706,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="31.6404706 8.32 39.1284706 4.16020857 31.6404706 0 31.6404706 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Arrow-07" transform="translate(317.200000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L35.8004706,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="31.6404706 8.32 39.1284706 4.16020857 31.6404706 0 31.6404706 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Arrow-07" transform="translate(405.600000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L35.8004706,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="31.6404706 8.32 39.1284706 4.16020857 31.6404706 0 31.6404706 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Arrow-07" transform="translate(494.000000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L27.7741176,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="23.6141176 8.32 31.1021176 4.16020857 23.6141176 0 23.6141176 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Arrow-07" transform="translate(548.600000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L25.7675294,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="21.6075294 8.32 29.0955294 4.16020857 21.6075294 0 21.6075294 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Arrow-07" transform="translate(600.600000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L25.7675294,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="21.6075294 8.32 29.0955294 4.16020857 21.6075294 0 21.6075294 8.32"></polyline>
+                </g>
+            </g>
+            <g id="Arrow-07" transform="translate(652.600000, 62.400000)">
+                <g>
+                    <path d="M0,4.16 L25.7675294,4.16" id="Stroke-07" stroke="#000000" stroke-width="0.832"></path>
+                    <polyline id="Arrow-head-07" fill="#000000" points="21.6075294 8.32 29.0955294 4.16020857 21.6075294 0 21.6075294 8.32"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
