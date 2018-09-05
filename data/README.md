@@ -1,1 +1,1 @@
-`train.p`, `valid.p`, and `test.p` should populate here after running `./init.sh`.
+`IMG/` and `driving_log.csv` should populate here after running `./init.sh`.
