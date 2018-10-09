@@ -1,5 +1,5 @@
 ## Vehicle Steering Angle Prediction using ConvNets
-This project consists of designing, training, and evaluating an end-to-end convolutional neural network (CNN) pipeline to perform the steering of a self-driving car. A simulator provided by Udacity was used to collect training data and to test the performance. Click on the image below for a video of the car driving in autonomous mode. A write-up is also available [www.lrgonzales.com/steering-angle-pred](http://www.lrgonzales.com/steering-angle-pred).
+This project consists of designing, training, and evaluating an end-to-end convolutional neural network (CNN) pipeline to perform the steering of a self-driving car. A simulator provided by Udacity was used to collect training data and to test the performance. Click on the image below for a video of the car driving in autonomous mode. A write-up is also available at [www.lrgonzales.com/steering-angle-pred](http://www.lrgonzales.com/steering-angle-pred).
 
 <div align="center">
 <a href="https://www.youtube.com/watch?v=WqS4QNW4YLU">
