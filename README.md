@@ -75,7 +75,7 @@ Given the nature of the task at hand, a test set metric was not captured. Instea
 Because the solution is expected to perform in real-time within a self-driving car, further efforts could be made in terms of exploring CNN architectures, particularly residual networks, with fewer parameters, easing processing requirements. It would also be interesting to see if performing a perspective transform within the cropped region leads to improvements. Lastly, there may be benefits in using two (left and right) or all three camera inputs into the CNN architecture; however, recovery data would have to be explicitly collected.
 
 ### Usage
-Run `./init.sh` to obtain the dataset in `./data/` and the saved Keras model in `./`.
+Run `./init.sh` to obtain the dataset in `./data/`.
 
 #### Training
 Run `python ./src/steer_net_train.py` to train the model. The trained Keras model saves to `./`. The chosen values for the hyperparameters (learning rate and batch size) are predefined in `./src/steer_net_train.py`, but these can be changed by redefining `alpha` and `batch_sz`.
